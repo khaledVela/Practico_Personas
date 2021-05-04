@@ -76,7 +76,7 @@ public class Visual extends JFrame {
                 int altura = Integer.parseInt(alturaField.getText());
                 modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText());
                 panel = new PanelImagen(modelo);
-                logger.debug("Nombre: "+nombreField.getText()+" Edad: " +edad+" Altura: "+ altura+" Genero: "+generoField.getText());
+                modelo.cambioOk();
             }
             catch (Exception e){
                 logger.debug("Error: "+e);

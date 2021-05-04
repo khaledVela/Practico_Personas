@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 
 public class Persona {
     private String nombre;
@@ -11,6 +13,7 @@ public class Persona {
     private int tree;
     private String genero;
     private PropertyChangeSupport observed;
+    private final static Logger logger = (Logger) LogManager.getRootLogger();
 
     public Persona() {
         observed = new PropertyChangeSupport(this);
@@ -23,6 +26,7 @@ public class Persona {
         two = (int) (altura * 0.25);
         tree = (int) (altura * 0.35);
         this.genero = genero;
+        logger.debug("Nombre: "+ nombre+" Edad: " +edad+" Altura: "+ altura+" Genero: "+genero);
         observed = new PropertyChangeSupport(this);
     }
 
@@ -37,6 +41,7 @@ public class Persona {
         g.drawLine(0, two + tree / 2, two, two + tree / 2);
         g.drawLine(two / 2, two + tree, 0, altura);
         g.drawLine(two / 2, two + tree, two, altura);
+
     }
 
     public void cambioOk() {
