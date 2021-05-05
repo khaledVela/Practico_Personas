@@ -1,12 +1,10 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
-import javax.management.remote.JMXConnectionNotification;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.security.PublicKey;
 
 public class Visual extends JFrame {
     private static final long serialVersionUID = 1L;
@@ -75,8 +73,7 @@ public class Visual extends JFrame {
                 int edad = Integer.parseInt(edadField.getText());
                 int altura = Integer.parseInt(alturaField.getText());
                 modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText());
-                panel = new PanelImagen(modelo);
-                modelo.cambioOk();
+                panel.setImagen(modelo);
             }
             catch (Exception e){
                 logger.debug("Error: "+e);
