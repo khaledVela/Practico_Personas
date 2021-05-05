@@ -11,6 +11,8 @@ public class Visual extends JFrame {
     private final static Logger logger = (Logger) LogManager.getRootLogger();
     private Persona modelo= new Persona();
     private PanelImagen panel = new PanelImagen(modelo);
+    int x=0;
+
     public Visual() {
         super("Practico 2");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -72,8 +74,9 @@ public class Visual extends JFrame {
             try {
                 int edad = Integer.parseInt(edadField.getText());
                 int altura = Integer.parseInt(alturaField.getText());
-                modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText());
+                modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText(),x);
                 panel.setImagen(modelo);
+                x= x + altura/2;
             }
             catch (Exception e){
                 logger.debug("Error: "+e);
