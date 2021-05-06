@@ -9,9 +9,9 @@ import java.awt.event.ActionListener;
 public class Visual extends JFrame {
     private static final long serialVersionUID = 1L;
     private final static Logger logger = (Logger) LogManager.getRootLogger();
-    private Persona modelo= new Persona();
+    private Persona modelo = new Persona();
     private PanelImagen panel = new PanelImagen(modelo);
-    int x=0;
+    int x = 0;
 
     public Visual() {
         super("Practico 2");
@@ -42,7 +42,8 @@ public class Visual extends JFrame {
         item2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                panel.Eliminar();
+                x=0;
             }
         });
         mnuImagen.add(item);
@@ -74,12 +75,11 @@ public class Visual extends JFrame {
             try {
                 int edad = Integer.parseInt(edadField.getText());
                 int altura = Integer.parseInt(alturaField.getText());
-                modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText(),x);
+                modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText(), x);
                 panel.setImagen(modelo);
-                x= x + altura/2;
-            }
-            catch (Exception e){
-                logger.debug("Error: "+e);
+                x = x + altura / 2;
+            } catch (Exception e) {
+                logger.debug("Error: " + e);
             }
         }
     }

@@ -23,7 +23,10 @@ public class PanelImagen extends JPanel implements PropertyChangeListener {
         lista.add(imagen);
         logger.debug("Confirmo lo de antes");
     }
-
+    public void Eliminar(){
+        Lista<Persona> eliminar = new Lista<Persona>();
+        lista=eliminar;
+    }
     @Override
     public Dimension getPreferredSize() {
         return new Dimension(1000, 400);
