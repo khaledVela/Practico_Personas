@@ -1,7 +1,10 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
+
 import java.util.Iterator;
 
 public class Lista<T> implements Iterable<T> {
-
+    private final static Logger logger = (Logger) LogManager.getRootLogger();
     protected Contenedor<T> raiz;
     protected int tamano;
 
@@ -41,6 +44,7 @@ public class Lista<T> implements Iterable<T> {
         }
         // Aqui tenemos al ultimo
         actual.setSiguiente(nuevo);
+        logger.debug("Añade a lista");
         tamano++;
     }
 

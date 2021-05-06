@@ -9,11 +9,10 @@ import org.apache.logging.log4j.core.Logger;
 public class Persona {
     private String nombre;
     private int edad;
-    int altura;
-    private boolean sex = false;
-    int x, y;
-    Color color;
-    int cabello, largo;
+    private int altura;
+    private int x, y;
+    private Color color;
+    private int cabello, largo;
     private int two;
     private int tree;
     private String genero;
@@ -45,7 +44,7 @@ public class Persona {
     public void dibujar(Graphics g) {
         y = 400 - altura;
         if (edad > 18) {
-            color = new Color(0, 255, 0);
+            color = new Color(55, 190, 80);
             g.setColor(color);
         }
         if (edad < 18) {
@@ -53,10 +52,10 @@ public class Persona {
             g.setColor(color);
         }
         if (edad == 18) {
-            color = new Color(127, 255, 0);
+            color = new Color(155, 222, 43);
             g.setColor(color);
         }
-        g.drawOval(x, y, two, two);//cabeza
+        g.fillOval(x, y, two, two);//cabeza
         g.drawLine(x + two / 2, y + two, x + two / 2, y + tree + two);//torso
         g.drawLine(x, y + two + tree / 2, two + x, y + two + tree / 2);//brazo
         g.drawLine(x + two / 2, y + two + tree, x, y + altura);//pierna
@@ -64,6 +63,10 @@ public class Persona {
         if ((genero.toLowerCase().equals("mujer")) || (genero.toLowerCase().equals("f")) || (genero.toLowerCase().equals("chica"))) {
             g.fillRect(x + cabello, y + largo, largo, two);
         }
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 
     public void cambioOk() {
