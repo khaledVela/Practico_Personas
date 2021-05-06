@@ -2,11 +2,13 @@ import java.awt.*;
 import java.awt.datatransfer.ClipboardOwner;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
+import java.util.Comparator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
-public class Persona {
+public class Persona implements Comparable<Persona> {
+    private Comparator<Persona> comparador;
     private String nombre;
     private int edad;
     private int altura;
@@ -73,4 +75,17 @@ public class Persona {
         observed.firePropertyChange("Imagen", 1, 2);
     }
 
+    public Comparator<Persona> getComparador() {
+        return comparador;
+    }
+    public void setComparador(Comparator<Persona> comparador) {
+        this.comparador = comparador;
+    }
+    @Override
+    public int compareTo(Persona o) {
+        // Si perro o es IGUAL a nosotros entonces devuelve 0
+        // Si perro o viene ANTES que nosotros entonces devuelve -1
+        // Si perro o viene DESPUES que nosotros entonces devuelve 1
+        return comparador.compare(this, o);
+    }
 }
