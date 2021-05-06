@@ -3,7 +3,6 @@ import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
@@ -14,6 +13,7 @@ public class PanelImagen extends JPanel implements PropertyChangeListener {
     private final static Logger logger = (Logger) LogManager.getRootLogger();
     public PanelImagen(Persona img) {
         imagen = img;
+        setBackground(Color.gray);
     }
 
     public void setImagen(Persona imagen) {
