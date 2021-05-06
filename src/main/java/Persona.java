@@ -26,6 +26,7 @@ public class Persona implements Comparable<Persona> {
     }
 
     public Persona(String nombre, int edad, int altura, String genero, int x) {
+        this.comparador = new Comparador();
         this.nombre = nombre;
         this.edad = edad;
         this.altura = altura;
@@ -41,6 +42,22 @@ public class Persona implements Comparable<Persona> {
 
     public void addObserver(PropertyChangeListener panel) {
         observed.addPropertyChangeListener(panel);
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public int getLargo() {
+        return largo;
+    }
+
+    public String getGenero() {
+        return genero;
     }
 
     public void dibujar(Graphics g) {
