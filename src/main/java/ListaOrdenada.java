@@ -24,4 +24,5 @@ public class ListaOrdenada<T extends Comparable<T>> extends Lista<T> {
         actual.setSiguiente(nuevo);
         tamano++;
     }
+
 }

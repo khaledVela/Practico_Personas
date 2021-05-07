@@ -1,149 +1,75 @@
-2021-05-06 00:19:10 DEBUG Creo menu
-2021-05-06 00:19:10 DEBUG Corro el programa
-2021-05-06 00:19:21 DEBUG Nombre: erhge4 Edad: 85 Altura: 150 Genero: wye4h
-2021-05-06 00:19:21 DEBUG añado al array
-2021-05-06 00:20:05 DEBUG Creo menu
-2021-05-06 00:20:05 DEBUG Corro el programa
-2021-05-06 00:20:17 DEBUG Nombre: 1515 Edad: 65 Altura: 150 Genero: 515
-2021-05-06 00:20:17 DEBUG añado al array
-2021-05-06 00:20:33 DEBUG Nombre: gsrg Edad: 15 Altura: 150 Genero: gesg
-2021-05-06 00:20:33 DEBUG añado al array
-2021-05-06 00:20:55 DEBUG Creo menu
-2021-05-06 00:20:55 DEBUG Corro el programa
-2021-05-06 00:21:03 DEBUG Nombre: s4hy Edad: 89 Altura: 150 Genero: hdrth
-2021-05-06 00:21:03 DEBUG añado al array
-2021-05-06 00:23:31 DEBUG Creo menu
-2021-05-06 00:23:31 DEBUG Corro el programa
-2021-05-06 00:23:42 DEBUG Nombre: hdrhd5rh Edad: 15 Altura: 150 Genero: m
-2021-05-06 00:23:42 DEBUG añado al array
-2021-05-06 00:24:00 DEBUG Nombre: erhdh Edad: 19 Altura: 100 Genero: f
-2021-05-06 00:24:00 DEBUG añado al array
-2021-05-06 00:24:21 DEBUG Nombre: h5tjh Edad: 18 Altura: 150 Genero: chICA
-2021-05-06 00:24:21 DEBUG añado al array
-2021-05-06 00:24:53 DEBUG Nombre: FGWESG Edad: 10 Altura: 200 Genero: MuJeR
-2021-05-06 00:24:53 DEBUG añado al array
-2021-05-06 00:40:38 DEBUG Creo menu
-2021-05-06 00:40:38 DEBUG Corro el programa
-2021-05-06 00:40:52 DEBUG Nombre: R45YE Edad: 10 Altura: 155 Genero: 15
-2021-05-06 00:40:52 DEBUG añado al array
-2021-05-06 00:41:20 DEBUG Creo menu
-2021-05-06 00:41:20 DEBUG Corro el programa
-2021-05-06 00:41:33 DEBUG Nombre: TRSHYT Edad: 10 Altura: 150 Genero: HHE
-2021-05-06 00:41:33 DEBUG añado al array
-2021-05-06 00:41:48 DEBUG Nombre: H5H Edad: 200 Altura: 200 Genero: HEHE
-2021-05-06 00:41:48 DEBUG añado al array
-2021-05-06 00:42:11 DEBUG Nombre: HE5RH Edad: 18 Altura: 180 Genero: F
-2021-05-06 00:42:11 DEBUG añado al array
-2021-05-06 00:42:38 DEBUG Creo menu
-2021-05-06 00:42:38 DEBUG Corro el programa
-2021-05-06 00:42:48 DEBUG Nombre: hye5hy Edad: 10 Altura: 180 Genero: f
-2021-05-06 00:42:48 DEBUG añado al array
-2021-05-06 00:43:02 DEBUG Nombre: 4tw4t Edad: 18 Altura: 200 Genero: f
-2021-05-06 00:43:02 DEBUG añado al array
-2021-05-06 00:43:20 DEBUG Nombre: grhg Edad: 20 Altura: 220 Genero: gs4rh
-2021-05-06 00:43:20 DEBUG añado al array
-2021-05-06 01:18:32 DEBUG Creo menu
-2021-05-06 01:18:32 DEBUG Corro el programa
-2021-05-06 01:18:44 DEBUG Nombre: he65rj Edad: 15 Altura: 100 Genero: f
-2021-05-06 01:18:44 DEBUG añado al array
-2021-05-06 01:19:01 DEBUG Nombre: r45 Edad: 20 Altura: 120 Genero: 15
-2021-05-06 01:19:01 DEBUG añado al array
-2021-05-06 01:19:14 DEBUG Error: java.lang.NumberFormatException: For input string: "he5"
-2021-05-06 01:20:03 DEBUG Creo menu
-2021-05-06 01:20:03 DEBUG Corro el programa
-2021-05-06 01:20:13 DEBUG Nombre: gfwg Edad: 15 Altura: 100 Genero: dsrh
-2021-05-06 01:20:13 DEBUG añado al array
-2021-05-06 01:34:56 DEBUG Creo menu
-2021-05-06 01:34:56 DEBUG Corro el programa
-2021-05-06 01:35:07 DEBUG Nombre: hry6j Edad: 15 Altura: 100 Genero: f
-2021-05-06 01:35:07 DEBUG añado a la lista
-2021-05-06 01:41:13 DEBUG Creo menu
-2021-05-06 01:41:13 DEBUG Corro el programa
-2021-05-06 01:41:24 DEBUG Nombre: esgs Edad: 562 Altura: 150 Genero: egseg
-2021-05-06 01:41:24 DEBUG Añado a la lista
-2021-05-06 01:41:53 DEBUG Creo menu
-2021-05-06 01:41:53 DEBUG Corro el programa
-2021-05-06 01:42:03 DEBUG Nombre: rhdsh Edad: 169 Altura: 56 Genero: rhd
-2021-05-06 01:42:03 DEBUG Añado a la lista
-2021-05-06 01:42:14 DEBUG Nombre: hdsrh Edad: 156 Altura: 9 Genero: 156
-2021-05-06 01:42:14 DEBUG Añado a la lista
-2021-05-06 02:03:43 DEBUG Creo menu
-2021-05-06 02:03:43 DEBUG Corro el programa
-2021-05-06 02:03:54 DEBUG Nombre: hrgdsh Edad: 56 Altura: 5256 Genero: rhd
-2021-05-06 02:03:54 DEBUG Confirmo lo de antes
-2021-05-06 02:04:23 DEBUG Creo menu
-2021-05-06 02:04:23 DEBUG Corro el programa
-2021-05-06 02:04:38 DEBUG Nombre: sfwaf Edad: 15 Altura: 100 Genero: f
-2021-05-06 02:04:38 DEBUG Confirmo lo de antes
-2021-05-06 02:04:48 DEBUG Nombre: waf Edad: 18 Altura: 150 Genero: fwaf
-2021-05-06 02:04:48 DEBUG Añade a lista
-2021-05-06 02:04:48 DEBUG Confirmo lo de antes
-2021-05-06 02:05:08 DEBUG Nombre: srfhbd Edad: 22 Altura: 200 Genero: f
-2021-05-06 02:05:08 DEBUG Añade a lista
-2021-05-06 02:05:08 DEBUG Confirmo lo de antes
-2021-05-06 02:08:09 DEBUG Creo menu
-2021-05-06 02:08:09 DEBUG Corro el programa
-2021-05-06 02:08:19 DEBUG Nombre: he5h Edad: 15 Altura: 150 Genero: dsrh
-2021-05-06 02:08:19 DEBUG Confirmo lo de antes
-2021-05-06 02:08:29 DEBUG Nombre: 5rdeh Edad: 15 Altura: 615 Genero: hd
-2021-05-06 02:08:29 DEBUG Añade a lista
-2021-05-06 02:08:29 DEBUG Confirmo lo de antes
-2021-05-06 02:08:44 DEBUG Nombre: trmn Edad: 15 Altura: 165 Genero: etnhj
-2021-05-06 02:08:44 DEBUG Confirmo lo de antes
-2021-05-06 02:08:57 DEBUG Creo menu
-2021-05-06 02:08:57 DEBUG Corro el programa
-2021-05-06 02:09:05 DEBUG Nombre: hdeh Edad: 15 Altura: 100 Genero: e5h
-2021-05-06 02:09:05 DEBUG Confirmo lo de antes
-2021-05-06 02:09:14 DEBUG Nombre: eh5 Edad: 18 Altura: 150 Genero: hehg
-2021-05-06 02:09:14 DEBUG Añade a lista
-2021-05-06 02:09:14 DEBUG Confirmo lo de antes
-2021-05-06 02:09:23 DEBUG Nombre: hed5h Edad: 15 Altura: 150 Genero: rg
-2021-05-06 02:09:23 DEBUG Confirmo lo de antes
-2021-05-06 02:10:14 DEBUG Creo menu
-2021-05-06 02:10:15 DEBUG Corro el programa
-2021-05-06 02:10:35 DEBUG Nombre: 645 Edad: 14 Altura: 100 Genero: 45
-2021-05-06 02:10:35 DEBUG Confirmo lo de antes
-2021-05-06 02:10:46 DEBUG Nombre: 156 Edad: 156 Altura: 100 Genero: 51
-2021-05-06 02:10:46 DEBUG Añade a lista
-2021-05-06 02:10:46 DEBUG Confirmo lo de antes
-2021-05-06 02:10:58 DEBUG Nombre: 120 Edad: 18 Altura: 18 Genero: f
-2021-05-06 02:10:58 DEBUG Añade a lista
-2021-05-06 02:10:58 DEBUG Confirmo lo de antes
-2021-05-06 02:18:28 DEBUG Nombre: 528 Edad: 8 Altura: 825 Genero: 82
-2021-05-06 02:18:28 DEBUG Confirmo lo de antes
-2021-05-06 02:18:33 DEBUG Nombre: 82 Edad: 28 Altura: 82 Genero: 28
-2021-05-06 02:18:33 DEBUG Añade a lista
-2021-05-06 02:18:33 DEBUG Confirmo lo de antes
-2021-05-06 02:18:39 DEBUG Nombre: 82 Edad: 8 Altura: 258 Genero: 28
-2021-05-06 02:18:39 DEBUG Añade a lista
-2021-05-06 02:18:39 DEBUG Confirmo lo de antes
-2021-05-06 02:18:48 DEBUG Nombre: 47 Edad: 78 Altura: 147 Genero: 74
-2021-05-06 02:18:48 DEBUG Añade a lista
-2021-05-06 02:18:48 DEBUG Confirmo lo de antes
-2021-05-06 02:18:53 DEBUG Nombre: 7 Edad: 471 Altura: 47 Genero: 47
-2021-05-06 02:18:53 DEBUG Añade a lista
-2021-05-06 02:18:53 DEBUG Confirmo lo de antes
-2021-05-06 02:23:35 DEBUG Nombre: fdsbh Edad: 489 Altura: 100 Genero: f
-2021-05-06 02:23:35 DEBUG Confirmo lo de antes
-2021-05-06 15:03:01 DEBUG Creo menu
-2021-05-06 15:03:01 DEBUG Corro el programa
-2021-05-06 15:03:10 DEBUG Nombre: bgdfh Edad: 15 Altura: 100 Genero: f
-2021-05-06 15:03:10 DEBUG Confirmo lo de antes
-2021-05-06 15:03:22 DEBUG Nombre: hdsrt Edad: 18 Altura: 150 Genero: dsrfh
-2021-05-06 15:03:22 DEBUG Añade a lista
-2021-05-06 15:03:22 DEBUG Confirmo lo de antes
-2021-05-06 15:03:34 DEBUG Nombre: hdjgtfj22 Edad: 22 Altura: 200 Genero: f
-2021-05-06 15:03:34 DEBUG Añade a lista
-2021-05-06 15:03:34 DEBUG Confirmo lo de antes
-2021-05-06 15:03:50 DEBUG Nombre: i5r6i Edad: 20 Altura: 100 Genero: f
-2021-05-06 15:03:50 DEBUG Confirmo lo de antes
-2021-05-06 15:04:02 DEBUG Nombre: to Edad: 19 Altura: 200 Genero: hgdsrh
-2021-05-06 15:04:02 DEBUG Añade a lista
-2021-05-06 15:04:02 DEBUG Confirmo lo de antes
-2021-05-06 15:04:10 DEBUG Nombre: pñuyñ Edad: 5385 Altura: 8258 Genero: 823
-2021-05-06 15:04:10 DEBUG Añade a lista
-2021-05-06 15:04:10 DEBUG Confirmo lo de antes
-2021-05-06 15:33:57 DEBUG Creo menu
-2021-05-06 15:33:57 DEBUG Corro el programa
-2021-05-06 15:34:06 DEBUG Nombre: ftj Edad: 18 Altura: 10 Genero: tfkj
-2021-05-06 15:34:06 DEBUG Confirmo lo de antes
+2021-05-07 00:42:25 DEBUG Creo menu
+2021-05-07 00:42:25 DEBUG Corro el programa
+2021-05-07 00:42:35 DEBUG Nombre: he5 Edad: 15 Altura: 100 Genero: d5hud5
+2021-05-07 00:42:35 DEBUG Confirmo lo de antes
+2021-05-07 00:43:24 DEBUG Creo menu
+2021-05-07 00:43:24 DEBUG Corro el programa
+2021-05-07 00:43:34 DEBUG Nombre: ujtfkj Edad: 15 Altura: 149 Genero: jtf
+2021-05-07 00:43:34 DEBUG Confirmo lo de antes
+2021-05-07 00:48:30 DEBUG Creo menu
+2021-05-07 00:48:30 DEBUG Corro el programa
+2021-05-07 00:48:44 DEBUG Nombre: mersgrg Edad: 15 Altura: 100 Genero: rdh
+2021-05-07 00:48:44 DEBUG Confirmo lo de antes
+2021-05-07 00:48:59 DEBUG Nombre: vrhds4rh Edad: 51 Altura: 150 Genero: hdrh
+2021-05-07 00:48:59 DEBUG Confirmo lo de antes
+2021-05-07 00:49:14 DEBUG Nombre: afhgdrth Edad: 15 Altura: 120 Genero: esg
+2021-05-07 00:49:14 DEBUG Confirmo lo de antes
+2021-05-07 00:50:32 DEBUG Creo menu
+2021-05-07 00:50:32 DEBUG Corro el programa
+2021-05-07 00:50:43 DEBUG Nombre: thjtdf Edad: 15 Altura: 50 Genero: tudf
+2021-05-07 00:50:43 DEBUG Confirmo lo de antes
+2021-05-07 00:50:54 DEBUG Nombre: tjftj Edad: 51 Altura: 100 Genero: jfyktj
+2021-05-07 00:50:54 DEBUG Confirmo lo de antes
+2021-05-07 00:51:19 DEBUG Creo menu
+2021-05-07 00:51:20 DEBUG Corro el programa
+2021-05-07 00:51:30 DEBUG Nombre: trhjf Edad: 451 Altura: 100 Genero: hdrtfh
+2021-05-07 00:51:30 DEBUG Confirmo lo de antes
+2021-05-07 00:51:39 DEBUG Nombre: jfyt Edad: 15 Altura: 50 Genero: drh
+2021-05-07 00:51:39 DEBUG Confirmo lo de antes
+2021-05-07 00:51:58 DEBUG Nombre: hdrh Edad: 10 Altura: 70 Genero: hdrh
+2021-05-07 00:51:58 DEBUG Confirmo lo de antes
+2021-05-07 00:53:58 DEBUG Creo menu
+2021-05-07 00:53:58 DEBUG Corro el programa
+2021-05-07 00:54:15 DEBUG Nombre: wdfaw Edad: 10 Altura: 100 Genero: hrh
+2021-05-07 00:54:15 DEBUG Confirmo lo de antes
+2021-05-07 00:54:32 DEBUG Nombre: rhdr Edad: 0 Altura: 10 Genero: rhdr
+2021-05-07 00:54:32 DEBUG Confirmo lo de antes
+2021-05-07 00:54:50 DEBUG Nombre: drhd Edad: 18 Altura: 150 Genero: hdrh
+2021-05-07 00:54:50 DEBUG Confirmo lo de antes
+2021-05-07 00:55:13 DEBUG Nombre: esgs4eg Edad: 10 Altura: 130 Genero: egseg
+2021-05-07 00:55:13 DEBUG Confirmo lo de antes
+2021-05-07 00:56:21 DEBUG Creo menu
+2021-05-07 00:56:21 DEBUG Corro el programa
+2021-05-07 00:56:38 DEBUG Creo menu
+2021-05-07 00:56:38 DEBUG Corro el programa
+2021-05-07 00:56:48 DEBUG Nombre: rhdrh Edad: 147 Altura: 10 Genero: rhdr
+2021-05-07 00:56:48 DEBUG Confirmo lo de antes
+2021-05-07 00:58:29 DEBUG Creo menu
+2021-05-07 00:58:30 DEBUG Corro el programa
+2021-05-07 00:58:41 DEBUG Nombre: hdhrh Edad: 15 Altura: 100 Genero: rhd
+2021-05-07 00:58:41 DEBUG Confirmo lo de antes
+2021-05-07 00:58:52 DEBUG Nombre: rhdrh Edad: 15 Altura: 50 Genero: hdrh
+2021-05-07 00:58:52 DEBUG Confirmo lo de antes
+2021-05-07 00:59:05 DEBUG Creo menu
+2021-05-07 00:59:05 DEBUG Corro el programa
+2021-05-07 00:59:12 DEBUG Nombre: egesg Edad: 15 Altura: 100 Genero: 
+2021-05-07 00:59:12 DEBUG Confirmo lo de antes
+2021-05-07 00:59:21 DEBUG Nombre: gesg Edad: 100 Altura: 10 Genero: gseg
+2021-05-07 00:59:21 DEBUG Confirmo lo de antes
+2021-05-07 00:59:34 DEBUG Nombre: egseg Edad: 15 Altura: 150 Genero: egsg
+2021-05-07 00:59:34 DEBUG Confirmo lo de antes
+2021-05-07 01:02:57 DEBUG Creo menu
+2021-05-07 01:02:57 DEBUG Corro el programa
+2021-05-07 01:03:06 DEBUG Nombre: yfj Edad: 100 Altura: 100 Genero: hrhdr
+2021-05-07 01:03:06 DEBUG Confirmo lo de antes
+2021-05-07 01:03:14 DEBUG Error: java.lang.NumberFormatException: For input string: "10h"
+2021-05-07 01:03:25 DEBUG Nombre: rhdrh Edad: 10 Altura: 10 Genero: hdsrh
+2021-05-07 01:03:25 DEBUG Confirmo lo de antes
+2021-05-07 01:03:39 DEBUG Nombre:  mkjyj Edad: 15 Altura: 50 Genero: hrhd
+2021-05-07 01:03:39 DEBUG Confirmo lo de antes
+2021-05-07 01:04:09 DEBUG Creo menu
+2021-05-07 01:04:09 DEBUG Corro el programa
+2021-05-07 01:04:18 DEBUG Nombre: rhd Edad: 15 Altura: 100 Genero: rhr
+2021-05-07 01:04:18 DEBUG Confirmo lo de antes
+2021-05-07 01:04:38 DEBUG Nombre: drhdrh Edad: 12 Altura: 10 Genero: hrhdrh
+2021-05-07 01:04:38 DEBUG Confirmo lo de antes

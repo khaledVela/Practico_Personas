@@ -9,8 +9,7 @@ import org.apache.logging.log4j.core.Logger;
 
 public class PanelImagen extends JPanel implements PropertyChangeListener {
     private static final long serialVersionUID = 1L;
-    Lista<Persona> lista = new Lista<Persona>();
-
+    ListaOrdenada<Persona> lista = new ListaOrdenada<>();
     private Persona imagen;
     private final static Logger logger = (Logger) LogManager.getRootLogger();
     public PanelImagen(Persona img) {
@@ -20,11 +19,11 @@ public class PanelImagen extends JPanel implements PropertyChangeListener {
 
     public void setImagen(Persona imagen) {
         this.imagen =imagen;
-        lista.add(imagen);
+        lista.insertar(imagen);
         logger.debug("Confirmo lo de antes");
     }
     public void Eliminar(){
-        Lista<Persona> eliminar = new Lista<Persona>();
+        ListaOrdenada<Persona> eliminar = new ListaOrdenada<>();
         lista=eliminar;
     }
     @Override

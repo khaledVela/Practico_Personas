@@ -10,7 +10,7 @@ public class Comparador implements Comparator<Persona>{
             return -1;
         if (o2.getAltura() > o1.getAltura())
             return 1;
-        //}
+       // }
         return o2.getNombre().compareTo(o1.getNombre());
     }
 }

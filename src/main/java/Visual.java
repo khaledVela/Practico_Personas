@@ -28,11 +28,6 @@ public class Visual extends JFrame {
         JMenu mnuImagen = new JMenu("Personas");
         JMenuItem item = new JMenuItem("Nueva persona");
         JMenuItem item2 = new JMenuItem("Eliminar Todo");
-        JMenu mnu = new JMenu("          ");
-        JMenu mnuImagen2 = new JMenu("Ordenar");
-        JMenuItem item3 = new JMenuItem("Nombre");
-        JMenuItem item4 = new JMenuItem("Edad");
-        JMenuItem item5 = new JMenuItem("Altura");
         item.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -43,17 +38,11 @@ public class Visual extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 panel.Eliminar();
-                x=0;
             }
         });
         mnuImagen.add(item);
         mnuImagen.add(item2);
-        mnuImagen2.add(item3);
-        mnuImagen2.add(item4);
-        mnuImagen2.add(item5);
         menuBar.add(mnuImagen);
-        menuBar.add(mnu);
-        menuBar.add(mnuImagen2);
         this.setJMenuBar(menuBar);
         this.pack();
     }
@@ -75,9 +64,8 @@ public class Visual extends JFrame {
             try {
                 int edad = Integer.parseInt(edadField.getText());
                 int altura = Integer.parseInt(alturaField.getText());
-                modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText(), x);
+                modelo = new Persona(nombreField.getText(), edad, altura, generoField.getText());
                 panel.setImagen(modelo);
-                x = x + altura / 2;
             } catch (Exception e) {
                 logger.debug("Error: " + e);
             }

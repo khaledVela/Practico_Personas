@@ -25,7 +25,7 @@ public class Persona implements Comparable<Persona> {
         observed = new PropertyChangeSupport(this);
     }
 
-    public Persona(String nombre, int edad, int altura, String genero, int x) {
+    public Persona(String nombre, int edad, int altura, String genero) {
         this.comparador = new Comparador();
         this.nombre = nombre;
         this.edad = edad;
@@ -33,7 +33,6 @@ public class Persona implements Comparable<Persona> {
         two = (int) (altura * 0.25);
         cabello = (int) (altura * 0.22);
         largo = (int) (altura * 0.05);
-        this.x = x;
         tree = (int) (altura * 0.35);
         this.genero = genero;
         logger.debug("Nombre: " + nombre + " Edad: " + edad + " Altura: " + altura + " Genero: " + genero);
@@ -58,6 +57,10 @@ public class Persona implements Comparable<Persona> {
 
     public String getGenero() {
         return genero;
+    }
+
+    public void setX(int x) {
+        this.x = x;
     }
 
     public void dibujar(Graphics g) {
@@ -88,16 +91,6 @@ public class Persona implements Comparable<Persona> {
         return nombre;
     }
 
-    public void cambioOk() {
-        observed.firePropertyChange("Imagen", 1, 2);
-    }
-
-    public Comparator<Persona> getComparador() {
-        return comparador;
-    }
-    public void setComparador(Comparator<Persona> comparador) {
-        this.comparador = comparador;
-    }
     @Override
     public int compareTo(Persona o) {
         // Si perro o es IGUAL a nosotros entonces devuelve 0
