@@ -69,6 +69,7 @@ public class Persona implements Comparable<Persona> {
     public void dibujar(Graphics g) {
         y = 400 - altura;
         if(f!=0){
+            //creo espacio social
             x=f*100;
         }
         if (edad > 18) {

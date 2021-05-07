@@ -25,6 +25,7 @@ public class Lista<T> implements Iterable<T> {
         Contenedor<T> nuevo = new Contenedor<T>(o);
         nuevo.setSiguiente(raiz);
         raiz = nuevo;
+        logger.debug("Añade a lista");
         tamano++;
     }
 
@@ -44,7 +45,6 @@ public class Lista<T> implements Iterable<T> {
         }
         // Aqui tenemos al ultimo
         actual.setSiguiente(nuevo);
-        logger.debug("Añade a lista");
         tamano++;
     }
 
