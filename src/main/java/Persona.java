@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.awt.datatransfer.ClipboardOwner;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.Comparator;
@@ -12,7 +11,8 @@ public class Persona implements Comparable<Persona> {
     private String nombre;
     private int edad;
     private int altura;
-    private int x, y;
+    private int f;
+    private int x=0, y;
     private Color color;
     private int cabello, largo;
     private int two;
@@ -59,12 +59,18 @@ public class Persona implements Comparable<Persona> {
         return genero;
     }
 
-    public void setX(int x) {
-        this.x = x;
+    public void setF(int f) {
+        this.f = f;
+    }
+    public int getF() {
+        return f;
     }
 
     public void dibujar(Graphics g) {
         y = 400 - altura;
+        if(f!=0){
+            x=f*100;
+        }
         if (edad > 18) {
             color = new Color(55, 190, 80);
             g.setColor(color);
